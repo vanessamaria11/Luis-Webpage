@@ -5,7 +5,7 @@
 
 }*/
 body{
-	background-image: url("../../Dancing-Bulbs/snapshots/Dancing-Bulbs.jpg");
+	background-image: url("../images/Dancing-Bulbs.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -40,8 +40,22 @@ p{
 	padding: 0 2vw 0 2vw;
 	color: #FFF;
 }
+.page-title{
+		font-family: "Gravitas One", regular;
+}
 h1{
 	color: #FFF;
+	text-align: center;
+	background-color: black;
+	opacity: 0.5;
+	font-family: "Gravitas One", regular;
+	padding: 0px;
+	width: 70%;
+	text-align: center;
+	margin-left: 10%;
+	margin-right:15%;
+	border-color: #FFF;
+	border-style: solid;
 }
 .buttons{
 	text-align: center;
@@ -57,18 +71,36 @@ h1{
 #firstbutton{
 	/*background-color: lightyellow;*/
 	opacity: 0.5;
-	color: black;
+	/*color: black;*/
+	text-align: center;
+/*	border:solid; */
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	color: #FFF;
 }
 
 #secondbutton{
 	/*background-color: lightyellow;*/
 	opacity: 0.5;
-	color: black;
+/*	color: black;*/
+		text-align: center;
+/*	border:solid; */
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	color: #FFF;
 }
 #thirdbutton{
 	/*background-color: lightyellow;*/
 	opacity: 0.5;
-	color: black;
+/*	color: black;*/
+	text-align: center;
+/*	border:solid; */
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	color: #FFF;
 }
 
 #firstbutton:hover{
@@ -128,6 +160,15 @@ input[type=text]{
 	width: 100%;
 	border-style:solid;
 	
+}
+.buttons-index{
+	text-align: center;
+/*	border:solid; */
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	color: #FFF;
+
 }
 
 .buttons-third{
