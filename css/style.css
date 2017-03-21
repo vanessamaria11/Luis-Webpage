@@ -1,0 +1,168 @@
+/*body{
+	background-color: teal;
+}
+.columns{
+
+}*/
+body{
+	background-image: url("../../Dancing-Bulbs/snapshots/Dancing-Bulbs.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	color: black;
+
+}
+p{
+/*	font-weight: bold;*/
+	font-size:20px;
+	color: #FFF;
+}
+.head{
+	border:solid; 
+	border-radius: 2em;
+	background-color: black; 
+	border-color: #FFF;
+	opacity: 0.6;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size:10vh;
+	text-align: center;
+	color: #FFF;
+
+}
+
+.columnbord{
+	border:solid; 
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	padding: 0 2vw 0 2vw;
+	color: #FFF;
+}
+h1{
+	color: #FFF;
+}
+.buttons{
+	text-align: center;
+	border:solid; 
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	padding: 0 2vw 0 2vw;
+	color: #FFF;
+
+}
+
+#firstbutton{
+	/*background-color: lightyellow;*/
+	opacity: 0.5;
+	color: black;
+}
+
+#secondbutton{
+	/*background-color: lightyellow;*/
+	opacity: 0.5;
+	color: black;
+}
+#thirdbutton{
+	/*background-color: lightyellow;*/
+	opacity: 0.5;
+	color: black;
+}
+
+#firstbutton:hover{
+	background-color: purple;
+	font-weight: bold;
+
+}
+
+#secondbutton:hover{
+	background-color: purple;
+	font-weight: bold;
+}
+#thirdbutton:hover{
+	background-color: purple;
+	font-weight: bold;
+}
+
+#contact-input{
+	text-align: center;
+	border-style: solid;
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	padding: 0 2vw 0 2vw;
+	color: #FFF;
+	margin-left:33.3%;
+	width: 33.3%;
+	padding-bottom: 5vh;
+}
+input[type=text]{
+	color: black;
+}
+
+#messagebox{
+	width: 90%;
+	height: 30vh;
+}
+
+#sendform{
+	background-color:teal;
+}
+#sendform:hover{
+	background-color:lightgreen;
+	color:black;
+	font-weight: bold;
+}
+
+.imagestyle{
+	width: 90%;
+	border-style:solid;
+	border-color: #FFF;
+	padding: 1vh;
+	border: black;
+}
+
+.imagestyle:hover{
+	width: 100%;
+	border-style:solid;
+	
+}
+
+.buttons-third{
+	text-align: center;
+	border:solid; 
+	border-radius: 2em;
+	background-color: black; 
+	opacity: 0.5;
+	padding: 0 2vw 0 2vw;
+	color: #FFF;
+	width: 20%;
+	margin-left: 33.3%;
+	width: 33.3%;
+}
+
+.buttons-about{
+	text-align: center;
+	border:solid; 
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	background-color: #FFF; 
+	opacity: 0.5;
+	margin-left: 40%;
+	margin-right: 5%;
+	color: #FFF;
+}
+
+#slideshow{
+	opacity: 1.0;
+}
+
+.columnbordslide{
+	border:solid; 
+	border-radius: 2em;
+	background-color: black; 
+	padding: 0 2vw 0 2vw;
+	color: #FFF;
+}
